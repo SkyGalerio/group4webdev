@@ -1,18 +1,61 @@
 .about {
-    padding: 2em;
-    margin: 2em;
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+  padding: 2em;
+  margin: 2em;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
   
-  .about h1 {
-    color: #0033A0;
-    margin-bottom: 0.5em;
-  }
+.about h1 {
+  color: #0033A0;
+  margin-bottom: 0.5em;
+}
   
-  .about p {
-    margin-bottom: 1em;
-    line-height: 1.5;
-  }
-  
+.about p {
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+/* Contact us */
+.contact {
+  padding: 2em;
+  margin: 2em;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+  color: #0033A0;
+  margin-bottom: 1em;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form label {
+  margin: 0.5em 0 0.2em;
+  color: #333333;
+}
+
+.contact form input, .contact form textarea {
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+
+.contact form button {
+  background-color: #009dff;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact form button:hover {
+  background-color: #47ceff;
+}
