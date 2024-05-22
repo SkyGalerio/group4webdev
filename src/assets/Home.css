@@ -15,3 +15,16 @@
     margin-bottom: 1em;
   }
   
+  .home button {
+    background-color: #009dff;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .home button:hover {
+    background-color: #47ceff;
+  }
+  

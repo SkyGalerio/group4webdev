@@ -1,0 +1,18 @@
+.about {
+    padding: 2em;
+    margin: 2em;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h1 {
+    color: #0033A0;
+    margin-bottom: 0.5em;
+  }
+  
+  .about p {
+    margin-bottom: 1em;
+    line-height: 1.5;
+  }
+  
