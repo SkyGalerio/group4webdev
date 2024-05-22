@@ -1,0 +1,17 @@
+.home {
+    text-align: center;
+    padding: 2em;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home h1 {
+    margin-bottom: 0.5em;
+  }
+  
+  .home p {
+    margin-bottom: 1em;
+  }
+  
