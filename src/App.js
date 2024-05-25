@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Gallery from './components/Gallery';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
       <Footer />
     </Router>
